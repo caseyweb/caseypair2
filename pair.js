@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
                 },
                 printQRInTerminal: false,
                 logger: pino({level: "fatal"}).child({level: "fatal"}),
-                browser: ["Chrome (Linux)", "", ""]
+                browser: ["Chrome (windows)", "", ""]
              });
              if(!Pair_Code_By_Gifted_Tech.authState.creds.registered) {
                 await delay(1500);
@@ -57,17 +57,16 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'KG_TECH_237;;;' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by Kg Tech❤*
-*_Made With KERM MD_*
-*_Owner Rayan: wa.me/237656520674_*
-*_Owner Gifarreno: wa.me/237650564445_*
+*_Pair Code Connected by Caseyrhodes tech❤*
+*_Made With CASEYRHODES 🫅*
+*_Owner Rayan: wa.me/254112192119_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN KERM MD v3 』*
+║ *『 WOW YOU'VE CHOSEN CASEYRHODES TECH』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ║ _Don't share your session to someone_
-║ _Channel:https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45_
-║ _Support group:https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw_
+║ _Channel:https://tinyurl.com/26kh6jss_
+║ _botrepo:https://tinyurl.com/293fnb5q_
 ╚════════════════════════╝`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
