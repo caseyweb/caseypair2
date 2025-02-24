@@ -59,7 +59,7 @@ router.get('/', async (req, res) => {
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected by Caseyrhodes tech❤*
 *_Made With CASEYRHODES 🫅*
-*_Owner Rayan: wa.me/254112192119_*
+*_Owner Caseyrhodes: wa.me/254112192119_*
 ______________________________________
 ╔════◇
 ║ *『 WOW YOU'VE CHOSEN CASEYRHODES TECH』*
