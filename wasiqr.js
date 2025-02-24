@@ -61,8 +61,7 @@ router.get('/', async (req, res) => {
 				   let WASI_MD_TEXT = `
 *_Session Connected By CASEYRHODES TECH_*
 *_Made With CASEYRHODES XMD_*
-*_Owner Rayan: wa.me/254112192119_*
-*_Owner Gifarreno: wa.me/254112192119_*
+*_Owner Caseyrhodes: wa.me/254112192119_*
 ______________________________________
 ╔════◇
 ║ *『AMAZING YOU'VE CHOSEN CASEYRHODES XMD』*
