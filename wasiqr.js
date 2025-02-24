@@ -59,17 +59,17 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: 'KG_TECH_237;;;' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By KG TECH_*
-*_Made With KERM MD_*
-*_Owner Rayan: wa.me/237656520674_*
-*_Owner Gifarreno: wa.me/237650564445_*
+*_Session Connected By CASEYRHODES TECH_*
+*_Made With CASEYRHODES XMD_*
+*_Owner Rayan: wa.me/254112192119_*
+*_Owner Gifarreno: wa.me/254112192119_*
 ______________________________________
 ╔════◇
-║ *『AMAZING YOU'VE CHOSEN KERM MD』*
+║ *『AMAZING YOU'VE CHOSEN CASEYRHODES XMD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ║ _Don't share your session to someone_
-║ _Channel:https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45_
-║ _Support group:https://chat.whatsapp.com/FpxvVBFOozA6IhNxIWhwFw_
+║ _Channel:https://tinyurl.com/26kh6jss_
+║ _botrepo:https://tinyurl.com/293fnb5q_
 ╚════════════════════════╝`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
